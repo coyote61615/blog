@@ -1,8 +1,8 @@
 // Número com código do país e DDD, só dígitos. Exemplo: 5561999999999
-var WHATSAPP = "";
+var WHATSAPP = "5597981132190";
 var MENSAGEM = "Olá! Vi seu site e gostaria de pedir um orçamento.";
 if (WHATSAPP) {
-  var link = "https://wa.me/+5597981132190" + WHATSAPP + "?text=" + encodeURIComponent(MENSAGEM);
+  var link = "https://wa.me/" + WHATSAPP + "?text=" + encodeURIComponent(MENSAGEM);
   document.querySelectorAll(".js-wa").forEach(function (a) {
     a.href = link; a.target = "_blank"; a.rel = "noopener";
   });
