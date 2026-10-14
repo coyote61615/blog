@@ -2,7 +2,7 @@
 var WHATSAPP = "";
 var MENSAGEM = "Olá! Vi seu site e gostaria de pedir um orçamento.";
 if (WHATSAPP) {
-  var link = "https://wa.me/5597981132190" + WHATSAPP + "?text=" + encodeURIComponent(MENSAGEM);
+  var link = "https://wa.me/+5597981132190" + WHATSAPP + "?text=" + encodeURIComponent(MENSAGEM);
   document.querySelectorAll(".js-wa").forEach(function (a) {
     a.href = link; a.target = "_blank"; a.rel = "noopener";
   });
